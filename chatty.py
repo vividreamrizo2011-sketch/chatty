@@ -53,7 +53,7 @@ HTML = '''
         <ul>
         {% for s in students %}
             <li>
-                {{loop.index}}. {{s['ism']}} {{s['familiya']}} - {{s['yosh']}, {{s['sinf']}}-sinf
+                {{loop.index}}. {{s['ism']}} {{s['familiya']}} - {{s['yosh']}}, {{s['sinf']}}-sinf
                 <a href="/delete/{{loop.index0}}">[O'chirish]</a>
             </li>
         {% endfor %}
